@@ -1,0 +1,949 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#login-logout {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#error {
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+	color: #8B0000;
+}
+
+#signup-form  input{
+	font-family: "Courier New", Courier, monospace;
+}
+
+#signup-form  button{
+	font-weight: bold;
+}
+
+/*------------------------------header-------------------------------------*/
+
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #383838;
+}
+
+header:after {
+	display: table;
+	clear: both;
+}
+
+.header nav ul {
+	float: right;
+	margin-top: 20px;
+	margin-right: 60px;
+	background-color: #383838;
+}
+
+.header nav ul li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	background-color: #383838;
+}
+
+.header nav ul li a {
+	margin: 5px;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 2px;
+	background-color: #383838;
+}
+
+.header nav ul form {
+	float: left;
+	background-color: #383838;
+}
+
+.header nav ul form input {
+	float: left;
+	border: none;
+	margin-right: 6px;
+	padding: 3px;
+	background-color: #fff;
+	box-shadow: 0 0 15px #000;
+	border-radius: 2px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.header nav ul form button{
+	float: left;
+	border: none;
+	margin-right: 20px;
+	margin-left: 8px;
+	background-color: #989898;
+	color: #222222;
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 0 0 15px #000;
+	border-radius: 2px;
+	padding: 1px 2px 1px 2px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.header nav ul form button:hover {
+	color: #FFF;
+}
+
+/*-------------------------------------------------------------------------*/
+
+body {
+	background-color: #808080;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#logo-bar {
+	margin: 0 auto;
+	max-width: 1020px;
+	max-height: 600px;
+}
+
+#logo-bar img {
+	display: block;
+	margin: 20px auto 30px auto;
+	width: 100%;
+	height: auto;
+	border: solid 4px #181818;
+	box-shadow: 0 0 15px #383838;
+}
+
+/*========================= collaborate button ============================*/
+
+.collaborate-btn img {
+	width: 30%;
+	display: block;
+	margin: 20px auto;
+}
+
+/*=========================================================================*/
+
+#wrapper {
+	font-size: 0;
+	overflow: hidden;
+}
+
+.column-left { 
+	font-size: 16px; /*reset font size*/
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    box-sizing: border-box;
+	float: left;
+}
+
+.column-right { 
+	font-size: 16px; /*reset font size*/
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    box-sizing: border-box;
+	float: right;
+}
+
+.column-center { 
+	font-size: 16px; /*reset font size*/
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/*============================= sidebar =================================*/
+
+#sidebar {
+	margin: 2%;
+}
+
+#sidebar nav ul {
+	margin: 0;
+}
+
+#sidebar nav ul li {
+	width: auto;
+	list-style: none;
+	padding: 8px;
+	background-color: #383838;
+	border: solid 2px #181818;
+	box-shadow: 0 0 15px #383838;
+}
+
+#sidebar nav ul li a {
+	color: #E0E0E0;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding-left: 10px;
+	display: block;
+}
+
+#sidebar nav ul li p {
+	color: #E0E0E0;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 10px;
+	display: block;
+}
+
+#sidebar nav ul li:hover {
+	background: #989898;
+}
+
+#sidebar nav ul li a:hover {
+	color: #383838;
+}
+
+#sidebar nav ul li.active {
+	background: #989898;
+}
+
+#sidebar nav ul li.active a {
+	color: #383838;
+}
+
+#sidebar nav ul li a firstletter {
+	font-size: 150%;
+	padding-right: 2px;
+	color: #1E90FF;
+}
+
+#sidebar nav ul li:hover firstletter {
+	font-size: 150%;
+	padding-right: 2px;
+	color: #FF4500;
+}
+
+#sidebar nav ul li a span {
+	font-size: 150%;
+	padding-right: 2px;
+}
+
+/*========================================================================*/
+
+/*=========================== quote-section ===============================*/
+
+#quote-section  {
+	margin: 0 2% 20px 2%;
+}
+
+#quote-section p {
+	margin-left: 0px;
+	padding: 10px;
+	border: 3px solid #202020;
+	background-color: #989898;
+	line-height: 1.3em;
+}
+
+/*========================================================================*/
+
+#circle-logos img {
+	width: 11em;
+	height: auto;
+	display: block;
+	margin: 30px auto;
+}
+
+.top h2 {
+	text-align: center;
+	font-size: 118%;
+	margin: 20px;
+}
+
+.top a{
+	color: #0000CD;
+}
+
+.top a:hover {
+	color: #1E90FF;
+}
+
+.bottom h2 {
+	text-align: center;
+	font-size: 118%;
+	margin: 20px;
+}
+
+.bottom a{
+	color: #0000CD;
+}
+
+.bottom a:hover {
+	color: #1E90FF;
+}
+
+#paragraph {
+	margin-top: 12px;
+}
+
+/*############################################################ HOME/BLOG PAGE ############################################################*/
+
+#discussion-board {
+	margin: 1% 2% 2% 2%;
+	height: auto;
+	background: #D0D0D0;
+	border: 4px solid #181818;
+	overflow: auto;
+	padding: 10px;
+	box-shadow: 0 0 15px #383838;
+}
+
+#discussion-board h1, h2, h3 {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#discussion-board p.heading {
+	font-size: 16px;
+	color: #00008B;
+	text-align: center;
+	line-height: 1.3em;
+	margin: 12px;
+}
+
+#discussion-board form textarea{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+#discussion-board form button {
+	display: block;
+	margin: 0 auto;
+}
+
+.sect-paragraph {
+	color: #191970;
+}
+
+/*************************************************************** comments **************************************************************/
+
+#comments-area{
+	width: 55%;
+	display: block;
+	margin: 0 auto 50px auto;
+	height: auto;
+	background: #D0D0D0;
+	border: 4px solid #181818;
+	overflow: auto;
+	padding: 10px;
+	box-shadow: 0 0 15px #383838;
+}
+
+#comments-area h1, h2, h3 {
+	text-align: center;
+}
+
+#comments-area p.heading {
+	font-size: 16px;
+	color: #00008B;
+	text-align: center;
+	line-height: 1.3em;
+	margin: 12px;
+}
+
+#comments-area textarea {
+	width: 850px;
+	height: 80px;
+	background-color: #fff;
+	resize: none;
+	display: block;
+	margin: 12px auto 0 auto;
+}
+
+#comments-area button {
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 60px;
+	margin-left: 100px;
+}
+
+.comment-box {
+	width: 915px;
+	padding: 20px;
+	margin: 0 auto 4px auto;
+	background-color: #fff;
+	border-radius: 4px;
+	position: relative;
+}
+
+.comment-box p {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 100;
+	color: #282828;
+}
+
+.edit-form {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.edit-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.edit-form button:hover {
+	opacity: 1;
+}
+
+.delete-form {
+	position: absolute;
+	top: 0px;
+	right: 200px;
+}
+
+.delete-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.delete-form button:hover {
+	opacity: 1;
+}
+
+
+/*************************************************************** content ***************************************************************/
+
+#content {
+	border-top: 3px solid #202020;
+}
+
+#content h2 {
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+
+#content h3 {
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+
+#content section {
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+
+#content section p.sect-paragraph {
+	text-indent: 0px;
+}
+
+#content p {
+	text-indent: 50px;
+	line-height: 1.3em;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#content p a {
+	color: #0000FF;
+}
+
+#content p a:hover {
+	color: 	#FF4500;
+}
+
+#content p.log {
+	border-bottom: 2px solid #202020;
+	padding-bottom: 18px;
+}
+
+#content p.log a {
+	color: #0000FF;
+}
+
+#content p.log a:hover {
+	color: 	#FF4500;
+}
+
+#content p img.blog-img {
+	min-width: 45%;
+	max-width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+#content p.paragraph-quotes {
+	font-size: 18px;
+	font-weight: bold;
+	text-indent: 0px;
+	text-align: center;
+	color: #0000FF;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+/*********************************************************** end of content ***********************************************************/
+
+#social a img {
+	width: 5em;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#footer {
+	clear: both;
+	border-top: solid 2px #202020;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#footer img{
+	width: 11em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer h5 {
+	margin-top: 11px;
+}
+
+/*############################################################ AEROSPACE PAGE ############################################################*/
+
+#wrapper h2 {
+	text-align: center;
+}
+
+#wrapper h1 letter {
+	font-size: 125%;
+	color: #0000FF;
+}
+
+#mini-sidebar {
+	float: right;
+	margin-right: 5%;
+	width: 15%;
+	margin-top: 2%;
+}
+
+#mini-sidebar nav ul li {
+	list-style: none;
+	padding: 8px;
+	background-color: #383838;
+	border: solid 2px #181818;
+	box-shadow: 0 0 15px #383838;
+}
+
+#mini-sidebar nav ul li a {
+	color: #E0E0E0;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 10px;
+	display: block;
+}
+
+#mini-sidebar nav ul li:hover {
+	background: #989898;
+}
+
+#mini-sidebar nav ul li a:hover {
+	color: #383838;
+}
+
+/*############################################################ SCIENCE PAGE ############################################################*/
+
+iframe {
+	width: 450px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*############################################################ OTHER PAGE ############################################################*/
+
+#content p.log img {
+	width: 51em;
+	display: block;
+}
+
+/*############################################################ CONTACT PAGE ############################################################*/
+
+#form {
+	width: 500px;
+	margin: 0px auto;
+}
+
+#section1{
+	padding: 20px;
+	margin: 20px auto;
+	height: 500px;
+	background-color: #D0D0D0;
+}
+
+#sect_contact {
+	width: 500px;
+	margin: 0px auto;
+}
+
+#sect_contact p {
+	padding-top: 20px;
+	line-height: 1.3em;
+	font-size: 16px;
+}
+
+#contact_us {
+	font-size: 18px;
+}
+
+#contact {
+	padding-left: 35px;
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+#contact form {
+	display: inline-block;
+}
+
+#submit_button {
+	color: #fff;
+	background-color: #383838;
+	height: 40px;
+	width: 80px;
+	font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+	border-radius: 4px;
+}
+
+#submit_button:hover {
+	color: #FF8C00;
+}
+
+.row {
+	padding: 5px;
+}
+
+.row input{
+	font-size: 15px;
+	padding: 8px;
+}
+
+.row textarea{
+	font-size: 16px;
+}
+
+/*############################################################ PROJECTS PAGE ############################################################*/
+
+#sidebar nav ul li.active-projects {
+	background: #989898;
+}
+
+#sidebar nav ul li.active-projects a {
+	font-size: 22px;
+	font-weight: bold;
+	color: #383838;
+}
+
+#sidebar nav ul li.projects  a {
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #32CD32;
+}
+
+#sidebar nav ul li.projects-sub  p {
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #FF4500;
+}
+
+#sidebar nav ul li.projects-sub:hover {
+	background-color: #383838;
+}
+
+/*############################################################ FRINGE PAGE ############################################################*/
+
+#fringe {
+	text-align: center;
+	font-size: 42px;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+	color: #FF0000;
+}
+
+#sidebar nav ul li.fringe  a {
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #32CD32;
+}
+
+#sidebar nav ul li.fringe-sub  p {
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #FF4500;
+}
+
+#sidebar nav ul li.fringe-sub:hover {
+	background-color: #383838;
+}
+
+/*############################################################ CONTRIBUTE PAGE ############################################################*/
+
+#content p.we {
+	text-indent: 0px;
+	margin-bottom: 12px;
+}
+
+#discussion-board a img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*############################################################ SUBSCRIBE PAGE ############################################################*/
+
+#sub-paragraph {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 23px;
+	text-indent: 0px;
+}
+
+#signup-form  input {
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+	width: 50%;
+	font-size: 20px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0 0 15px #383838;
+	border-radius: 4px;
+}
+
+#signup-form button {
+	width: 50%;
+	font-size: 20px;
+	display: block;
+	margin: 0 auto 140px auto;
+	padding: 5px;
+	border: none;
+	background-color: #FF4500;
+	cursor: pointer;
+	box-shadow: 0 0 15px #383838;
+	border-radius: 4px;
+}
+
+/*############################################################ Facebook section ############################################################*/
+
+.fb-section {
+	width: 46.5%;
+	height: auto;
+	background: #D0D0D0;
+	border: 4px solid #181818;
+	overflow: auto;
+	padding: 10px;
+	box-shadow: 0 0 15px #383838;
+	display: block;
+	margin: 20px auto;
+	clear: both;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (max-width: 992px) {
+
+	/*----------------------------------- Home/Blog ----------------------------------------------*/
+	header {
+		height: 100px;
+		padding: 0;
+	}
+	
+	.header nav ul form input{
+		width: 33%;
+	}
+	
+	.header nav ul form button {
+		margin: 0;
+	}
+	
+	.header-subscribe{
+		visibility: hidden;
+	}
+	
+	#input-item {
+		margin-left: 5px;
+	}
+	
+	#logo-bar img {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.collaborate-btn img {
+		width: 25%;
+	}
+	
+	.column-left, .column-right, .column-center {
+		display: block;
+        width: 100%;
+	}
+	
+	#discussion-board {
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
+	
+	#footer img {
+		width: 9em;
+	}
+	
+	#sidebar, #circle-logos, #mini-sidebar {
+		float: none;
+		width: 94%;
+		margin: 40px auto;
+	}
+	
+	#circle-logos  img{
+		width: 10em;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	
+	#social a img {
+		width: 4em;
+	}
+	
+	#content p img.blog-img {
+		width: 99%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	/*----------------------------------- Science ------------------------------------------------*/
+	
+	iframe {
+		width: 16em;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	/*----------------------------------- Contact ------------------------------------------------*/
+	
+	#sect_contact p {
+		width: 250px;
+		padding: 0;
+		text-align: center;
+		font-size: 95%;
+	}
+	
+	#form{
+		width: auto;
+		margin: 0;
+	}
+	
+	.row{
+		width: auto;
+		height: auto;
+	}
+
+	.row input{
+		font-size: 15px;
+		padding: 0px;
+		width: 150px;
+	}
+
+	.row textarea{
+		width: 150px;
+	}
+
+	#submit_button {
+		height: 40px;
+		width: 80px;
+		font-size: 14px;
+		float: left;
+	}
+	
+	/*----------------------------------- Subscribe ------------------------------------------------*/
+	
+	#sub-paragraph {
+		text-align: left;
+	}
+
+	#signup-form  input {
+		width: 88%;
+	}
+
+	#signup-form button {
+		width: 88%;
+	}
+	
+	/*----------------------------------- Comments ------------------------------------------------*/
+	
+	#comments-area{
+		width: 90%;
+	}
+
+	#comments-area textarea {
+		width: 95%;
+	}
+
+	#comments-area button {
+		width: 50%;
+	}
+
+	.comment-box {
+		width: 75%;
+		height: 30%;
+		overflow: auto;
+	}
+	
+	.comment-box p {
+		margin-top: 30px;
+	}
+
+	.edit-form button {
+		width: 15%;
+		float: right;
+		margin: 0 auto;
+	}
+
+	.delete-form button {
+		width: 15%;
+		float: right;
+		margin: 0 auto;
+	}
+	
+	/*----------------------------------- Facebook ------------------------------------------------*/
+	
+	.fb-section {
+		width: 88%;
+	}
+}
